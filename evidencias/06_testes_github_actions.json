@@ -1,0 +1,36 @@
+{
+  "repository": "https://github.com/ericksena17/techstore-refatoracao-solid",
+  "code_commit": "cabd6d03a6de5e9f188ca2e72c8f0702b9f11297",
+  "workflow_run": {
+    "id": 39157904465,
+    "name": "Testes TechStore",
+    "event": "push",
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/ericksena17/techstore-refatoracao-solid/actions/runs/39157904465"
+  },
+  "jobs": [
+    {
+      "id": 117764856630,
+      "name": "test (20)",
+      "status": "completed",
+      "conclusion": "success",
+      "test_step": "Run npm test",
+      "test_step_conclusion": "success"
+    },
+    {
+      "id": 117764856765,
+      "name": "test (24)",
+      "status": "completed",
+      "conclusion": "success",
+      "test_step": "Run npm test",
+      "test_step_conclusion": "success"
+    }
+  ],
+  "local_test_suite": {
+    "tests": 64,
+    "passed": 64,
+    "failed": 0
+  },
+  "note": "O registro de CI se refere ao commit do codigo acima. Esta atualizacao acrescenta apenas documentacao e evidencia."
+}

@@ -79,7 +79,7 @@ Foram executados localmente **64 testes, todos aprovados**, no Node.js v24.19.0.
 
 O cenário de exemplo também possui valores esperados calculados independentemente da implementação original. A data é fixada apenas no harness, para permitir comparação reprodutível. Não é alterada na aplicação.
 
-O workflow do GitHub Actions está preparado para rodar `npm test` em Node.js 20 e 24 após a publicação. Esses jobs remotos não foram executados nesta verificação local.
+O GitHub Actions também aprovou a suíte em Node.js 20 e 24. A execução de validação pode ser consultada em https://github.com/ericksena17/techstore-refatoracao-solid/actions/runs/39157904465. O registro está em `evidencias/06_testes_github_actions.json`.
 
 ## Limites mantidos e decisão de escopo
 
