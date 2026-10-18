@@ -1,0 +1,398 @@
+Node.js v24.19.0
+Comando: node --test --test-reporter=tap
+Codigo de saida: 0
+
+TAP version 13
+# Subtest: caracterizacao regular sem-cupom pix em 12 cenarios
+ok 1 - caracterizacao regular sem-cupom pix em 12 cenarios
+  ---
+  duration_ms: 9.308022
+  type: 'test'
+  ...
+# Subtest: caracterizacao regular sem-cupom credit_card em 12 cenarios
+ok 2 - caracterizacao regular sem-cupom credit_card em 12 cenarios
+  ---
+  duration_ms: 4.496338
+  type: 'test'
+  ...
+# Subtest: caracterizacao regular sem-cupom boleto em 12 cenarios
+ok 3 - caracterizacao regular sem-cupom boleto em 12 cenarios
+  ---
+  duration_ms: 4.469108
+  type: 'test'
+  ...
+# Subtest: caracterizacao regular TECH10 pix em 12 cenarios
+ok 4 - caracterizacao regular TECH10 pix em 12 cenarios
+  ---
+  duration_ms: 3.068063
+  type: 'test'
+  ...
+# Subtest: caracterizacao regular TECH10 credit_card em 12 cenarios
+ok 5 - caracterizacao regular TECH10 credit_card em 12 cenarios
+  ---
+  duration_ms: 3.677011
+  type: 'test'
+  ...
+# Subtest: caracterizacao regular TECH10 boleto em 12 cenarios
+ok 6 - caracterizacao regular TECH10 boleto em 12 cenarios
+  ---
+  duration_ms: 2.786007
+  type: 'test'
+  ...
+# Subtest: caracterizacao regular FRETEGRATIS pix em 12 cenarios
+ok 7 - caracterizacao regular FRETEGRATIS pix em 12 cenarios
+  ---
+  duration_ms: 2.073396
+  type: 'test'
+  ...
+# Subtest: caracterizacao regular FRETEGRATIS credit_card em 12 cenarios
+ok 8 - caracterizacao regular FRETEGRATIS credit_card em 12 cenarios
+  ---
+  duration_ms: 1.994481
+  type: 'test'
+  ...
+# Subtest: caracterizacao regular FRETEGRATIS boleto em 12 cenarios
+ok 9 - caracterizacao regular FRETEGRATIS boleto em 12 cenarios
+  ---
+  duration_ms: 2.013479
+  type: 'test'
+  ...
+# Subtest: caracterizacao vip sem-cupom pix em 12 cenarios
+ok 10 - caracterizacao vip sem-cupom pix em 12 cenarios
+  ---
+  duration_ms: 2.164431
+  type: 'test'
+  ...
+# Subtest: caracterizacao vip sem-cupom credit_card em 12 cenarios
+ok 11 - caracterizacao vip sem-cupom credit_card em 12 cenarios
+  ---
+  duration_ms: 5.785229
+  type: 'test'
+  ...
+# Subtest: caracterizacao vip sem-cupom boleto em 12 cenarios
+ok 12 - caracterizacao vip sem-cupom boleto em 12 cenarios
+  ---
+  duration_ms: 1.984886
+  type: 'test'
+  ...
+# Subtest: caracterizacao vip TECH10 pix em 12 cenarios
+ok 13 - caracterizacao vip TECH10 pix em 12 cenarios
+  ---
+  duration_ms: 1.795417
+  type: 'test'
+  ...
+# Subtest: caracterizacao vip TECH10 credit_card em 12 cenarios
+ok 14 - caracterizacao vip TECH10 credit_card em 12 cenarios
+  ---
+  duration_ms: 1.834534
+  type: 'test'
+  ...
+# Subtest: caracterizacao vip TECH10 boleto em 12 cenarios
+ok 15 - caracterizacao vip TECH10 boleto em 12 cenarios
+  ---
+  duration_ms: 1.800915
+  type: 'test'
+  ...
+# Subtest: caracterizacao vip FRETEGRATIS pix em 12 cenarios
+ok 16 - caracterizacao vip FRETEGRATIS pix em 12 cenarios
+  ---
+  duration_ms: 1.789939
+  type: 'test'
+  ...
+# Subtest: caracterizacao vip FRETEGRATIS credit_card em 12 cenarios
+ok 17 - caracterizacao vip FRETEGRATIS credit_card em 12 cenarios
+  ---
+  duration_ms: 2.069962
+  type: 'test'
+  ...
+# Subtest: caracterizacao vip FRETEGRATIS boleto em 12 cenarios
+ok 18 - caracterizacao vip FRETEGRATIS boleto em 12 cenarios
+  ---
+  duration_ms: 1.600439
+  type: 'test'
+  ...
+# Subtest: caracterizacao employee sem-cupom pix em 12 cenarios
+ok 19 - caracterizacao employee sem-cupom pix em 12 cenarios
+  ---
+  duration_ms: 1.934062
+  type: 'test'
+  ...
+# Subtest: caracterizacao employee sem-cupom credit_card em 12 cenarios
+ok 20 - caracterizacao employee sem-cupom credit_card em 12 cenarios
+  ---
+  duration_ms: 1.538208
+  type: 'test'
+  ...
+# Subtest: caracterizacao employee sem-cupom boleto em 12 cenarios
+ok 21 - caracterizacao employee sem-cupom boleto em 12 cenarios
+  ---
+  duration_ms: 1.877217
+  type: 'test'
+  ...
+# Subtest: caracterizacao employee TECH10 pix em 12 cenarios
+ok 22 - caracterizacao employee TECH10 pix em 12 cenarios
+  ---
+  duration_ms: 2.384856
+  type: 'test'
+  ...
+# Subtest: caracterizacao employee TECH10 credit_card em 12 cenarios
+ok 23 - caracterizacao employee TECH10 credit_card em 12 cenarios
+  ---
+  duration_ms: 2.533345
+  type: 'test'
+  ...
+# Subtest: caracterizacao employee TECH10 boleto em 12 cenarios
+ok 24 - caracterizacao employee TECH10 boleto em 12 cenarios
+  ---
+  duration_ms: 1.588312
+  type: 'test'
+  ...
+# Subtest: caracterizacao employee FRETEGRATIS pix em 12 cenarios
+ok 25 - caracterizacao employee FRETEGRATIS pix em 12 cenarios
+  ---
+  duration_ms: 1.522875
+  type: 'test'
+  ...
+# Subtest: caracterizacao employee FRETEGRATIS credit_card em 12 cenarios
+ok 26 - caracterizacao employee FRETEGRATIS credit_card em 12 cenarios
+  ---
+  duration_ms: 1.639407
+  type: 'test'
+  ...
+# Subtest: caracterizacao employee FRETEGRATIS boleto em 12 cenarios
+ok 27 - caracterizacao employee FRETEGRATIS boleto em 12 cenarios
+  ---
+  duration_ms: 1.429297
+  type: 'test'
+  ...
+# Subtest: limite do desconto por volume com subtotal 7999.99
+ok 28 - limite do desconto por volume com subtotal 7999.99
+  ---
+  duration_ms: 0.604401
+  type: 'test'
+  ...
+# Subtest: limite do desconto por volume com subtotal 8000
+ok 29 - limite do desconto por volume com subtotal 8000
+  ---
+  duration_ms: 0.34608
+  type: 'test'
+  ...
+# Subtest: limite do desconto por volume com subtotal 8000.01
+ok 30 - limite do desconto por volume com subtotal 8000.01
+  ---
+  duration_ms: 0.220095
+  type: 'test'
+  ...
+# Subtest: limite do desconto por volume com subtotal 9999.995
+ok 31 - limite do desconto por volume com subtotal 9999.995
+  ---
+  duration_ms: 0.253954
+  type: 'test'
+  ...
+# Subtest: falha preservada cliente ausente sem gravacao ou baixa de estoque
+ok 32 - falha preservada cliente ausente sem gravacao ou baixa de estoque
+  ---
+  duration_ms: 0.323617
+  type: 'test'
+  ...
+# Subtest: falha preservada email sem arroba sem gravacao ou baixa de estoque
+ok 33 - falha preservada email sem arroba sem gravacao ou baixa de estoque
+  ---
+  duration_ms: 0.2238
+  type: 'test'
+  ...
+# Subtest: falha preservada email vazio sem gravacao ou baixa de estoque
+ok 34 - falha preservada email vazio sem gravacao ou baixa de estoque
+  ---
+  duration_ms: 0.225232
+  type: 'test'
+  ...
+# Subtest: falha preservada email nulo sem gravacao ou baixa de estoque
+ok 35 - falha preservada email nulo sem gravacao ou baixa de estoque
+  ---
+  duration_ms: 0.229168
+  type: 'test'
+  ...
+# Subtest: falha preservada sem itens sem gravacao ou baixa de estoque
+ok 36 - falha preservada sem itens sem gravacao ou baixa de estoque
+  ---
+  duration_ms: 0.20367
+  type: 'test'
+  ...
+# Subtest: falha preservada itens nulos sem gravacao ou baixa de estoque
+ok 37 - falha preservada itens nulos sem gravacao ou baixa de estoque
+  ---
+  duration_ms: 0.161608
+  type: 'test'
+  ...
+# Subtest: falha preservada produto ausente sem gravacao ou baixa de estoque
+ok 38 - falha preservada produto ausente sem gravacao ou baixa de estoque
+  ---
+  duration_ms: 0.792719
+  type: 'test'
+  ...
+# Subtest: falha preservada quantidade zero sem gravacao ou baixa de estoque
+ok 39 - falha preservada quantidade zero sem gravacao ou baixa de estoque
+  ---
+  duration_ms: 0.17601
+  type: 'test'
+  ...
+# Subtest: falha preservada quantidade negativa sem gravacao ou baixa de estoque
+ok 40 - falha preservada quantidade negativa sem gravacao ou baixa de estoque
+  ---
+  duration_ms: 0.168509
+  type: 'test'
+  ...
+# Subtest: falha preservada produto inexistente sem gravacao ou baixa de estoque
+ok 41 - falha preservada produto inexistente sem gravacao ou baixa de estoque
+  ---
+  duration_ms: 0.222669
+  type: 'test'
+  ...
+# Subtest: falha preservada estoque insuficiente sem gravacao ou baixa de estoque
+ok 42 - falha preservada estoque insuficiente sem gravacao ou baixa de estoque
+  ---
+  duration_ms: 0.18363
+  type: 'test'
+  ...
+# Subtest: falha preservada pagamento desconhecido sem gravacao ou baixa de estoque
+ok 43 - falha preservada pagamento desconhecido sem gravacao ou baixa de estoque
+  ---
+  duration_ms: 0.175719
+  type: 'test'
+  ...
+# Subtest: falha preservada total zero sem gravacao ou baixa de estoque
+ok 44 - falha preservada total zero sem gravacao ou baixa de estoque
+  ---
+  duration_ms: 0.173225
+  type: 'test'
+  ...
+# Subtest: cenario do README tem valores independentes conhecidos
+ok 45 - cenario do README tem valores independentes conhecidos
+  ---
+  duration_ms: 0.167186
+  type: 'test'
+  ...
+# Subtest: boleto continua reservando estoque e nao envia confirmacao
+ok 46 - boleto continua reservando estoque e nao envia confirmacao
+  ---
+  duration_ms: 0.394151
+  type: 'test'
+  ...
+# Subtest: tipo de cliente e cupom desconhecidos mantem desconto zero
+ok 47 - tipo de cliente e cupom desconhecidos mantem desconto zero
+  ---
+  duration_ms: 0.274674
+  type: 'test'
+  ...
+# Subtest: limite conhecido de estoque por item repetido permanece documentado
+ok 48 - limite conhecido de estoque por item repetido permanece documentado
+  ---
+  duration_ms: 0.218803
+  type: 'test'
+  ...
+# Subtest: OCP acrescenta uma regra de desconto por composicao
+ok 49 - OCP acrescenta uma regra de desconto por composicao
+  ---
+  duration_ms: 2.031264
+  type: 'test'
+  ...
+# Subtest: OCP registra nova forma de pagamento sem mudar o processador
+ok 50 - OCP registra nova forma de pagamento sem mudar o processador
+  ---
+  duration_ms: 0.69141
+  type: 'test'
+  ...
+# Subtest: OCP inclui uma regiao por configuracao
+ok 51 - OCP inclui uma regiao por configuracao
+  ---
+  duration_ms: 0.31869
+  type: 'test'
+  ...
+# Subtest: LSP contrato de pagamento substituivel pix
+ok 52 - LSP contrato de pagamento substituivel pix
+  ---
+  duration_ms: 0.238051
+  type: 'test'
+  ...
+# Subtest: LSP contrato de pagamento substituivel cartao
+ok 53 - LSP contrato de pagamento substituivel cartao
+  ---
+  duration_ms: 0.203219
+  type: 'test'
+  ...
+# Subtest: LSP contrato de pagamento substituivel boleto
+ok 54 - LSP contrato de pagamento substituivel boleto
+  ---
+  duration_ms: 0.113718
+  type: 'test'
+  ...
+# Subtest: LSP regra CustomerDiscount respeita o mesmo contrato
+ok 55 - LSP regra CustomerDiscount respeita o mesmo contrato
+  ---
+  duration_ms: 0.252853
+  type: 'test'
+  ...
+# Subtest: LSP regra CouponDiscount respeita o mesmo contrato
+ok 56 - LSP regra CouponDiscount respeita o mesmo contrato
+  ---
+  duration_ms: 0.153436
+  type: 'test'
+  ...
+# Subtest: LSP regra VolumeDiscount respeita o mesmo contrato
+ok 57 - LSP regra VolumeDiscount respeita o mesmo contrato
+  ---
+  duration_ms: 0.204501
+  type: 'test'
+  ...
+# Subtest: ISP repositorio de pedido precisa somente de save
+ok 58 - ISP repositorio de pedido precisa somente de save
+  ---
+  duration_ms: 0.939084
+  type: 'test'
+  ...
+# Subtest: ISP estoque nao exige operacoes de listagem ou gravacao de pedido
+ok 59 - ISP estoque nao exige operacoes de listagem ou gravacao de pedido
+  ---
+  duration_ms: 0.314754
+  type: 'test'
+  ...
+# Subtest: Demeter frete usa somente o contrato de Order
+ok 60 - Demeter frete usa somente o contrato de Order
+  ---
+  duration_ms: 0.122611
+  type: 'test'
+  ...
+# Subtest: Demeter subtotal peso e resumo sao calculados pelos objetos do dominio
+ok 61 - Demeter subtotal peso e resumo sao calculados pelos objetos do dominio
+  ---
+  duration_ms: 0.165193
+  type: 'test'
+  ...
+# Subtest: DIP permite substituir notificacao e apresentacao por objetos simples
+ok 62 - DIP permite substituir notificacao e apresentacao por objetos simples
+  ---
+  duration_ms: 0.354373
+  type: 'test'
+  ...
+# Subtest: notificador local gera mensagem deterministica sem acesso a rede
+ok 63 - notificador local gera mensagem deterministica sem acesso a rede
+  ---
+  duration_ms: 0.168959
+  type: 'test'
+  ...
+# Subtest: sequencia do caso de uso preserva reserva gravacao e notificacao
+ok 64 - sequencia do caso de uso preserva reserva gravacao e notificacao
+  ---
+  duration_ms: 0.35924
+  type: 'test'
+  ...
+1..64
+# tests 64
+# suites 0
+# pass 64
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 192.288598

@@ -1,0 +1,58 @@
+{
+  "node": "v24.19.0",
+  "originalExitCode": 1,
+  "refactoredExitCode": 0,
+  "testsExitCode": 0,
+  "tests": 64,
+  "passed": 64,
+  "failed": 0,
+  "comparedStandardScenarios": 324,
+  "sample": {
+    "id": "o1001",
+    "customerName": "Ana Souza",
+    "customerEmail": "ana.souza@example.com",
+    "city": "Presidente Prudente",
+    "state": "SP",
+    "items": [
+      {
+        "productId": "p1",
+        "name": "Notebook Pro 14",
+        "quantity": 1,
+        "subtotal": 6200
+      },
+      {
+        "productId": "p2",
+        "name": "Mouse Sem Fio",
+        "quantity": 2,
+        "subtotal": 240
+      }
+    ],
+    "subtotal": 6440,
+    "discount": 1159.2,
+    "freight": 30,
+    "paymentFee": 161,
+    "total": 5471.8,
+    "paymentMethod": "credit_card",
+    "status": "confirmed",
+    "createdAt": "2026-10-18T12:00:00.000Z"
+  },
+  "stocks": [
+    {
+      "id": "p1",
+      "stock": 7
+    },
+    {
+      "id": "p2",
+      "stock": 28
+    },
+    {
+      "id": "p3",
+      "stock": 12
+    },
+    {
+      "id": "p4",
+      "stock": 15
+    }
+  ],
+  "notificationCount": 1
+}

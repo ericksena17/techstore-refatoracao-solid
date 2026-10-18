@@ -1,0 +1,210 @@
+{
+  "originalCommit": "511732495c69d01de227482d00b0a2e62a08aae3",
+  "limitation": "Original sem NotificationService: comparacao da logica disponivel com notificador espiao no harness.",
+  "originalWithNotificationSpy": {
+    "result": {
+      "id": "o1001",
+      "customerName": "Ana Souza",
+      "customerEmail": "ana.souza@example.com",
+      "city": "Presidente Prudente",
+      "state": "SP",
+      "items": [
+        {
+          "productId": "p1",
+          "name": "Notebook Pro 14",
+          "quantity": 1,
+          "subtotal": 6200
+        },
+        {
+          "productId": "p2",
+          "name": "Mouse Sem Fio",
+          "quantity": 2,
+          "subtotal": 240
+        }
+      ],
+      "subtotal": 6440,
+      "discount": 1159.2,
+      "freight": 30,
+      "paymentFee": 161,
+      "total": 5471.8,
+      "paymentMethod": "credit_card",
+      "status": "confirmed",
+      "createdAt": "2026-10-18T12:00:00.000Z"
+    },
+    "stocks": [
+      {
+        "id": "p1",
+        "stock": 7
+      },
+      {
+        "id": "p2",
+        "stock": 28
+      },
+      {
+        "id": "p3",
+        "stock": 12
+      },
+      {
+        "id": "p4",
+        "stock": 15
+      }
+    ],
+    "status": "confirmed",
+    "saved": [
+      {
+        "id": "o1001",
+        "customerName": "Ana Souza",
+        "customerEmail": "ana.souza@example.com",
+        "city": "Presidente Prudente",
+        "state": "SP",
+        "items": [
+          {
+            "productId": "p1",
+            "name": "Notebook Pro 14",
+            "quantity": 1,
+            "subtotal": 6200
+          },
+          {
+            "productId": "p2",
+            "name": "Mouse Sem Fio",
+            "quantity": 2,
+            "subtotal": 240
+          }
+        ],
+        "subtotal": 6440,
+        "discount": 1159.2,
+        "freight": 30,
+        "paymentFee": 161,
+        "total": 5471.8,
+        "paymentMethod": "credit_card",
+        "status": "confirmed",
+        "createdAt": "2026-10-18T12:00:00.000Z"
+      }
+    ],
+    "notifications": [
+      {
+        "contact": {
+          "name": "Ana Souza",
+          "email": "ana.souza@example.com"
+        },
+        "orderId": "o1001",
+        "total": 5471.8
+      }
+    ],
+    "logs": [
+      "[INFO] Iniciando processamento do pedido o1001.",
+      "Resumo do pedido",
+      "Cliente: Ana Souza",
+      "Cidade: Presidente Prudente/SP",
+      "Itens: 3",
+      "Subtotal: R$ 6440.00",
+      "Desconto: R$ 1159.20",
+      "Frete: R$ 30.00",
+      "Taxas: R$ 161.00",
+      "Total: R$ 5471.80"
+    ]
+  },
+  "refactoredWithNotificationSpy": {
+    "result": {
+      "id": "o1001",
+      "customerName": "Ana Souza",
+      "customerEmail": "ana.souza@example.com",
+      "city": "Presidente Prudente",
+      "state": "SP",
+      "items": [
+        {
+          "productId": "p1",
+          "name": "Notebook Pro 14",
+          "quantity": 1,
+          "subtotal": 6200
+        },
+        {
+          "productId": "p2",
+          "name": "Mouse Sem Fio",
+          "quantity": 2,
+          "subtotal": 240
+        }
+      ],
+      "subtotal": 6440,
+      "discount": 1159.2,
+      "freight": 30,
+      "paymentFee": 161,
+      "total": 5471.8,
+      "paymentMethod": "credit_card",
+      "status": "confirmed",
+      "createdAt": "2026-10-18T12:00:00.000Z"
+    },
+    "stocks": [
+      {
+        "id": "p1",
+        "stock": 7
+      },
+      {
+        "id": "p2",
+        "stock": 28
+      },
+      {
+        "id": "p3",
+        "stock": 12
+      },
+      {
+        "id": "p4",
+        "stock": 15
+      }
+    ],
+    "status": "confirmed",
+    "saved": [
+      {
+        "id": "o1001",
+        "customerName": "Ana Souza",
+        "customerEmail": "ana.souza@example.com",
+        "city": "Presidente Prudente",
+        "state": "SP",
+        "items": [
+          {
+            "productId": "p1",
+            "name": "Notebook Pro 14",
+            "quantity": 1,
+            "subtotal": 6200
+          },
+          {
+            "productId": "p2",
+            "name": "Mouse Sem Fio",
+            "quantity": 2,
+            "subtotal": 240
+          }
+        ],
+        "subtotal": 6440,
+        "discount": 1159.2,
+        "freight": 30,
+        "paymentFee": 161,
+        "total": 5471.8,
+        "paymentMethod": "credit_card",
+        "status": "confirmed",
+        "createdAt": "2026-10-18T12:00:00.000Z"
+      }
+    ],
+    "notifications": [
+      {
+        "contact": {
+          "name": "Ana Souza",
+          "email": "ana.souza@example.com"
+        },
+        "orderId": "o1001",
+        "total": 5471.8
+      }
+    ],
+    "logs": [
+      "[INFO] Iniciando processamento do pedido o1001.",
+      "Resumo do pedido",
+      "Cliente: Ana Souza",
+      "Cidade: Presidente Prudente/SP",
+      "Itens: 3",
+      "Subtotal: R$ 6440.00",
+      "Desconto: R$ 1159.20",
+      "Frete: R$ 30.00",
+      "Taxas: R$ 161.00",
+      "Total: R$ 5471.80"
+    ]
+  }
+}
